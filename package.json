@@ -1,0 +1,17 @@
+{
+  "name": "alexa-router",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.2"
+  },
+  "dependencies": {
+    "alexa-response": "^4.2.10",
+    "micro": "^9.3.0"
+  }
+}
