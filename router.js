@@ -23,7 +23,7 @@ function find(fns) {
   return async (req, res) => {
     let i = 0;
     let response;
-    let length = fns.length;
+    const length = fns.length;
     const event = await json(req);
 
     do {
